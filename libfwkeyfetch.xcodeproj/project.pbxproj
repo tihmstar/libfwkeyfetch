@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879FE9C82DDE00F200654386 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 879FE9C62DDE00F200654386 /* main.cpp */; };
+		879FE9CF2DDE013E00654386 /* libfwkeyfetch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 879FE9CE2DDE013E00654386 /* libfwkeyfetch.cpp */; };
+		879FE9D22DDE018F00654386 /* jssy.c in Sources */ = {isa = PBXBuildFile; fileRef = 879FE9D12DDE018F00654386 /* jssy.c */; };
+		879FE9D72DDE031400654386 /* libgeneral.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 879FE9D62DDE031400654386 /* libgeneral.0.dylib */; };
+		879FE9D82DDE031400654386 /* libgeneral.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 879FE9D62DDE031400654386 /* libgeneral.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		879FE9DB2DDE031D00654386 /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 879FE9DA2DDE031800654386 /* libcurl.tbd */; };
+		879FE9DD2DDE032700654386 /* libfragmentzip.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 879FE9DC2DDE032700654386 /* libfragmentzip.0.dylib */; };
+		879FE9DE2DDE032700654386 /* libfragmentzip.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 879FE9DC2DDE032700654386 /* libfragmentzip.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		879FE9BA2DDE009600654386 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		879FE9D92DDE031400654386 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				879FE9DE2DDE032700654386 /* libfragmentzip.0.dylib in Embed Libraries */,
+				879FE9D82DDE031400654386 /* libgeneral.0.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		879FE9BC2DDE009600654386 /* libfwkeyfetch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libfwkeyfetch; sourceTree = BUILT_PRODUCTS_DIR; };
+		879FE9C62DDE00F200654386 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		879FE9CD2DDE013E00654386 /* libfwkeyfetch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = libfwkeyfetch.hpp; path = ../include/libfwkeyfetch/libfwkeyfetch.hpp; sourceTree = "<group>"; };
+		879FE9CE2DDE013E00654386 /* libfwkeyfetch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libfwkeyfetch.cpp; sourceTree = "<group>"; };
+		879FE9D02DDE018F00654386 /* jssy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jssy.h; path = external/jssy/jssy/jssy.h; sourceTree = SOURCE_ROOT; };
+		879FE9D12DDE018F00654386 /* jssy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jssy.c; path = external/jssy/jssy/jssy.c; sourceTree = SOURCE_ROOT; };
+		879FE9D62DDE031400654386 /* libgeneral.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgeneral.0.dylib; path = ../../../../usr/local/lib/libgeneral.0.dylib; sourceTree = "<group>"; };
+		879FE9DA2DDE031800654386 /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
+		879FE9DC2DDE032700654386 /* libfragmentzip.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfragmentzip.0.dylib; path = ../../../../usr/local/lib/libfragmentzip.0.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879FE9B92DDE009600654386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879FE9DD2DDE032700654386 /* libfragmentzip.0.dylib in Frameworks */,
+				879FE9DB2DDE031D00654386 /* libcurl.tbd in Frameworks */,
+				879FE9D72DDE031400654386 /* libgeneral.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879FE9B32DDE009600654386 = {
+			isa = PBXGroup;
+			children = (
+				879FE9C72DDE00F200654386 /* libfwkeyfetch */,
+				879FE9D52DDE031400654386 /* Frameworks */,
+				879FE9BD2DDE009600654386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879FE9BD2DDE009600654386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879FE9BC2DDE009600654386 /* libfwkeyfetch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879FE9C72DDE00F200654386 /* libfwkeyfetch */ = {
+			isa = PBXGroup;
+			children = (
+				879FE9D42DDE019B00654386 /* external */,
+				879FE9CD2DDE013E00654386 /* libfwkeyfetch.hpp */,
+				879FE9CE2DDE013E00654386 /* libfwkeyfetch.cpp */,
+				879FE9C62DDE00F200654386 /* main.cpp */,
+			);
+			path = libfwkeyfetch;
+			sourceTree = "<group>";
+		};
+		879FE9D32DDE019300654386 /* jssy */ = {
+			isa = PBXGroup;
+			children = (
+				879FE9D02DDE018F00654386 /* jssy.h */,
+				879FE9D12DDE018F00654386 /* jssy.c */,
+			);
+			name = jssy;
+			sourceTree = "<group>";
+		};
+		879FE9D42DDE019B00654386 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				879FE9D32DDE019300654386 /* jssy */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		879FE9D52DDE031400654386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				879FE9DC2DDE032700654386 /* libfragmentzip.0.dylib */,
+				879FE9DA2DDE031800654386 /* libcurl.tbd */,
+				879FE9D62DDE031400654386 /* libgeneral.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879FE9BB2DDE009600654386 /* libfwkeyfetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879FE9C32DDE009600654386 /* Build configuration list for PBXNativeTarget "libfwkeyfetch" */;
+			buildPhases = (
+				879FE9B82DDE009600654386 /* Sources */,
+				879FE9B92DDE009600654386 /* Frameworks */,
+				879FE9BA2DDE009600654386 /* CopyFiles */,
+				879FE9D92DDE031400654386 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libfwkeyfetch;
+			packageProductDependencies = (
+			);
+			productName = libfwkeyfetch;
+			productReference = 879FE9BC2DDE009600654386 /* libfwkeyfetch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879FE9B42DDE009600654386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					879FE9BB2DDE009600654386 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 879FE9B72DDE009600654386 /* Build configuration list for PBXProject "libfwkeyfetch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879FE9B32DDE009600654386;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 879FE9BD2DDE009600654386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879FE9BB2DDE009600654386 /* libfwkeyfetch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879FE9B82DDE009600654386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879FE9C82DDE00F200654386 /* main.cpp in Sources */,
+				879FE9D22DDE018F00654386 /* jssy.c in Sources */,
+				879FE9CF2DDE013E00654386 /* libfwkeyfetch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		879FE9C12DDE009600654386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		879FE9C22DDE009600654386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		879FE9C42DDE009600654386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					HAVE_LIBFRAGMENTZIP,
+					WITH_REMOTE_KEYS,
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		879FE9C52DDE009600654386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879FE9B72DDE009600654386 /* Build configuration list for PBXProject "libfwkeyfetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879FE9C12DDE009600654386 /* Debug */,
+				879FE9C22DDE009600654386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879FE9C32DDE009600654386 /* Build configuration list for PBXNativeTarget "libfwkeyfetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879FE9C42DDE009600654386 /* Debug */,
+				879FE9C52DDE009600654386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879FE9B42DDE009600654386 /* Project object */;
+}
