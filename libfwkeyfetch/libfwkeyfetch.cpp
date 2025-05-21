@@ -5,6 +5,7 @@
 //  Created by tihmstar on 21.05.25.
 //
 
+#include <libgeneral/macros.h>
 #ifndef LIBFWKEYFETCH_API
 #   ifdef WIN32
 #       define LIBFWKEYFETCH_API __declspec(dllimport)
@@ -16,8 +17,6 @@
 #endif
 
 #include "../include/libfwkeyfetch/libfwkeyfetch.hpp"
-
-#include <libgeneral/macros.h>
 
 #include <curl/curl.h>
 
