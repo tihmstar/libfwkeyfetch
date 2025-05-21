@@ -38,7 +38,7 @@ CXXFLAGS+=" -std=c++11"
 CFLAGS+=" -std=c11 -fvisibility=hidden"
 
 # Checks for libraries.
-LIBCURL_REQUIRES_STR="libcurl >= 8.7.0"
+LIBCURL_REQUIRES_STR="libcurl >= 8.6.0"
 LIBFRAGMENTZIP_REQUIRES_STR="libfragmentzip >= 70"
 LIBGENERAL_REQUIRES_STR="libgeneral >= 83"
 
