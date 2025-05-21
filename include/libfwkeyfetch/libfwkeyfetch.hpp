@@ -10,6 +10,8 @@
 
 #include <iostream>
 
+#include <stdint.h>
+
 #ifndef LIBFWKEYFETCH_API
 #   define LIBFWKEYFETCH_API
 #endif

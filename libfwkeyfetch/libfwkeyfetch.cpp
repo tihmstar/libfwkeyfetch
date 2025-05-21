@@ -17,9 +17,9 @@
 
 #include "../include/libfwkeyfetch/libfwkeyfetch.hpp"
 
-#include <curl/curl.h>
-
 #include <libgeneral/macros.h>
+
+#include <curl/curl.h>
 
 #ifdef HAVE_LIBFRAGMENTZIP
 #include <libfragmentzip/libfragmentzip.h>
